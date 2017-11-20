@@ -1,0 +1,12 @@
+syntax = "proto3";
+package com.marriott.dsp.sessionreservation.protocol;
+
+option java_package = "com.example.protocol.myproto";
+
+message MyMessage {
+    string firstname = 1;
+    string lastname = 2;
+    int64 eid = 3;
+    bool isActive = 7;
+}
+
